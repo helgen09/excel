@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Row extends Model
 {
-    protected $fillable = ['name', 'date'];
+    protected $fillable = ['id', 'name', 'date'];
 }
